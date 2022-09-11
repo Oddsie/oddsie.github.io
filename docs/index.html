@@ -11,6 +11,12 @@
 
     <title>Oddsie</title>
     <style>
+        pre code {
+          background-color: #eee;
+          border: 1px solid #999;
+          display: block;
+          padding: 20px;
+        }
         /* Alignments */
         .center{ text-align: center;}
         .right{ text-align: right;}
@@ -81,7 +87,7 @@
 </head>
   <body class="bggrey">
       <p class="center title white">Oddsie Documentation Home</p>
-      <p class="center title">LINKS:</p>
+      <p class="center title">Anchors</p>
       <p class="center subtitle"><a href="#define">Define</a></p>
       <p class="center subtitle"><a href="#die">Die</a></p>
       <p class="center subtitle"><a href="#dislay">Display</a></p>
@@ -93,5 +99,21 @@
       <p class="center subtitle"><a href="#loop">Loop</a></p>
       <p class="center subtitle"><a href="#use">Use</a></p>
       <p class="center subtitle"><a href="#var">Var</a></p>
+      <div class="left" id="define">
+        <p class="white">The define keyword is used to define a function.</p>
+        <pre>
+            <code>
+                define main():
+                &emsp;CODE HERE
+                end
+            </code>
+        </pre>
+        <p class="white">translates to</p>
+                <pre>
+            <code>
+                def main():
+                &emsp;CODE HERE
+            </code>
+        </pre>
   </body>
 </html>
